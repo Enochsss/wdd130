@@ -20,10 +20,9 @@
 }
 
 .hero article img {
-    position: float;
     top: 150px;
     right: 50px;
-    padding: 20;
+    padding: 20px;
     width: 100px;
 }
 
