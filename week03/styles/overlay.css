@@ -38,8 +38,8 @@ h2 {
 }
 
 h3 {
-	text-shadow: 0 0 15px #333;
-	border-bottom: 1px solid #999;
+	text-shadow: 0 0 15px #333; /* deslocamentoHorizontal deslocamentoVertical blurRadius */
+	border-bottom: 1px solid #999; /* adiciona linha embaixo */
 	margin-bottom: 0.3rem;
 }
 
@@ -50,6 +50,6 @@ footer {
 	border-top: 1px solid #000;
 	padding: 0.5rem;
 	color: navy;
-	font-weight: 700;
+	font-weight: 700; /* Equivalente a texto em negrito */
 	font-style: italic;
 }
