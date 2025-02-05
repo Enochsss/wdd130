@@ -34,7 +34,7 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     display: inline-block;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 h2, p {
@@ -47,8 +47,12 @@ header, main, footer {
     max-width: 960px;
 }
 
+header img {
+    width: 150px;
+}
+
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -58,7 +62,6 @@ a {
 
 .hero {
     position: relative;
-    overflow: hidden;
 }
 
 article {
@@ -67,13 +70,12 @@ article {
     left: 30px;
     right: 30px;
     padding: var(--padding);
-    background-color: rgba(173, 216, 230, 0.5); /* lightblue with 50% opacity */
-    width: calc(100% - 60px);
+    background-color: rgba(173, 216, 230, 0.8);
 }
 
 article img {
     float: right;
-    width: 150px;
+    width: 100px;
     margin-right: var(--margin);
     opacity: 1;
 }
