@@ -21,6 +21,15 @@ body {
     color: var(--black);
 }
 
+header {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+    padding: var(--padding);
+    margin: var(--margin);
+    border: var(--border);
+}
+
 h1 {
     position: absolute;
     top: 50px;
@@ -43,8 +52,8 @@ h2, p {
 }
 
 header, main, footer {
-    margin: 0 auto;
     max-width: 960px;
+    margin: 20px;
 }
 
 header img {
@@ -58,6 +67,15 @@ img {
 
 a {
     text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #464c4e;
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: rgba(19, 9, 65, 0.479);
+    color: var(--black);
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .hero {
@@ -78,4 +96,17 @@ article img {
     width: 100px;
     margin-right: var(--margin);
     opacity: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer nav.sociallinks a {
+    border: none; 
+    background-color: transparent;
+    padding: 20px;
+    margin: 0;
 }
