@@ -53,7 +53,7 @@ h2, p {
 
 header, main, footer {
     max-width: 960px;
-    margin: 20px;
+    margin: 20px auto;
 }
 
 header img {
@@ -71,7 +71,7 @@ a {
     padding: 10px 20px;
     margin: 5px;
     border: 2px solid #464c4e;
-    border-radius: 5px; /* Bordas arredondadas */
+    border-radius: 5px; 
     background-color: rgba(19, 9, 65, 0.479);
     color: var(--black);
     text-align: center;
@@ -146,31 +146,33 @@ footer {
     max-width: 960px;
     margin: 20px auto;
     padding: 10px;
-  }
+}
   
-  footer p {
-    grid-column: 2;       /* Coloca o parágrafo na coluna do meio */
-    text-align: center;    /* Centraliza o texto */
+footer p {
+    grid-column: 2;       
+    text-align: center;   
     margin: 0;
-  }
-  
-  footer nav.sociallinks {
+}
+
+footer nav.sociallinks {
     display: flex;
     gap: 0;
-    grid-column: 3;       /* Coloca o nav na coluna da direita */
-    justify-self: end;     /* Alinha os ícones à direita */
-  }
+    grid-column: 3;       
+    justify-self: end;     
+}
 
 .adventure-images {
-    
-    display: flex;           /* Ativa o flexbox */
-    flex-wrap: wrap;         /* Permite que as imagens que não couberem na mesma linha sejam movidas para a linha seguinte */
-    gap: 10px;               /* Espaçamento entre as imagens (opcional) */
-    justify-content: center; /* Alinha as imagens centralizadas; você pode usar 'space-between', 'flex-start', etc., conforme sua preferência */
+    display: flex;           
+    flex-wrap: wrap;         
+    gap: 10px;               
+    justify-content: center; 
   }
   
-  .adventure-images img {
-    width: 150px;  /* Define a largura desejada para cada imagem */
-    height: auto;  /* Mantém a proporção original */
+.adventure-images img {
+    width: 150px;
+    height: auto;
     margin: 1rem;
-  }
+}
+
+figcaption {
+    text-align: center;}
