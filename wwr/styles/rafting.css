@@ -100,13 +100,77 @@ article img {
 
 nav {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
+    justify-content: flex-end;
 }
 
 footer nav.sociallinks a {
     border: none; 
     background-color: transparent;
-    padding: 20px;
+    padding: 4px;
     margin: 0;
 }
+
+.history, h2 {
+    padding-top: 10px;
+    text-align: left;
+    display: grid;
+    grid-column: 1 / 4;
+}
+
+h2 {
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 35px;
+    background-color: rgba(173, 216, 230, 0.8);
+}
+
+.history p {
+    margin: 1rem 0;
+    padding: 10px;
+}
+
+.history img {
+    margin: 1rem auto;
+    padding: 10px;
+}
+
+footer nav.sociallinks img {
+    width: 30px;
+    height: auto;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  
+  footer p {
+    grid-column: 2;       /* Coloca o parágrafo na coluna do meio */
+    text-align: center;    /* Centraliza o texto */
+    margin: 0;
+  }
+  
+  footer nav.sociallinks {
+    display: flex;
+    gap: 0;
+    grid-column: 3;       /* Coloca o nav na coluna da direita */
+    justify-self: end;     /* Alinha os ícones à direita */
+  }
+
+.adventure-images {
+    
+    display: flex;           /* Ativa o flexbox */
+    flex-wrap: wrap;         /* Permite que as imagens que não couberem na mesma linha sejam movidas para a linha seguinte */
+    gap: 10px;               /* Espaçamento entre as imagens (opcional) */
+    justify-content: center; /* Alinha as imagens centralizadas; você pode usar 'space-between', 'flex-start', etc., conforme sua preferência */
+  }
+  
+  .adventure-images img {
+    width: 150px;  /* Define a largura desejada para cada imagem */
+    height: auto;  /* Mantém a proporção original */
+    margin: 1rem;
+  }
