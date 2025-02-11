@@ -331,3 +331,12 @@ button[type="submit"] {
 .contact h2 {
     display: inline-block; /* Mantém o fundo ajustado ao texto */
 }
+
+.map-embed {
+    width: 100%; /* Faz o mapa ocupar toda a largura do container */
+    max-width: 600px; /* Define um limite para o tamanho */
+    height: 450px; /* Mantém a altura desejada */
+    border: none; /* Remove a borda sem precisar de inline styles */
+    display: block;
+    margin: 0 auto; /* Centraliza o mapa */
+}
