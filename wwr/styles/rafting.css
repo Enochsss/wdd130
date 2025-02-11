@@ -175,4 +175,159 @@ footer nav.sociallinks {
 }
 
 figcaption {
-    text-align: center;}
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid lightblue;
+    border-radius: 0.5rem;
+    background-color: rgba(173, 216, 230, 0.8);
+    display: grid;
+  }
+
+  fieldset {
+    display: grid;
+    grid-gap: .1rem;
+    margin: .1rem;
+    border: 1px solid lightblue;
+    padding: 1rem;
+  }
+
+  .contact a {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: #0000FF;
+}
+
+.contact p {
+    padding: 0 35px;
+}
+
+button[type="submit"] {
+    width: 70px;
+    margin: 0 auto;
+}
+
+.form-item textarea {
+    height: 200px;
+    width: 100%;
+    resize: vertical; 
+}
+
+.form-item.column2 {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.form-item.column2:nth-child(1) label {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.form-item.column2:nth-child(1) input {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100%;
+}
+
+.form-item.column2:nth-child(2) label {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.form-item.column2:nth-child(2) input {
+    grid-column: 2;
+    grid-row: 2;
+    width: 100%;
+}
+
+.form-item.column1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    gap: 0.5rem; 
+}
+
+.form-item.column1 label {
+    margin-right: auto;
+}
+
+
+.form-item textarea {
+    height: 150px; 
+    width: 100%;
+    resize: vertical; 
+}
+
+.contact h1 {
+    position: relative;
+    top: auto; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    color: var(--black);
+    width: 100%; 
+    display: block;
+}
+
+.contact p {
+    text-align: left;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.team {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team figure {
+    max-width: 200px;
+    text-align: center;
+}
+
+.team img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: var(--font-title);
+}
+
+.team h2 {
+    margin-bottom: 30px;
+}
+
+.contact h2 {
+    font-size: 1.5rem; /* Reduzindo o tamanho da fonte */
+    padding: 5px 10px; /* Ajustando o espaço interno */
+    margin-bottom: 10px; /* Aproximando da próxima seção */
+    text-align: center;
+    display: inline-block; /* Para que o fundo só cubra o texto */
+    background-color: rgba(173, 216, 230, 0.8); /* Mantendo o estilo atual */
+    padding: 5px 10px; /* Reduzindo o espaço interno */
+    border-radius: 5px; /* Mantendo bordas arredondadas */
+}
+
+.contact {
+    text-align: center; /* Faz com que o conteúdo interno fique centralizado */
+}
+.contact h2 {
+    display: inline-block; /* Mantém o fundo ajustado ao texto */
+}
