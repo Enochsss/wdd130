@@ -315,33 +315,32 @@ button[type="submit"] {
 }
 
 .contact h2 {
-    font-size: 1.5rem; /* Reduzindo o tamanho da fonte */
-    padding: 5px 10px; /* Ajustando o espaço interno */
-    margin-bottom: 10px; /* Aproximando da próxima seção */
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    margin-bottom: 10px;
     text-align: center;
-    display: inline-block; /* Para que o fundo só cubra o texto */
-    background-color: rgba(173, 216, 230, 0.8); /* Mantendo o estilo atual */
-    padding: 5px 10px; /* Reduzindo o espaço interno */
-    border-radius: 5px; /* Mantendo bordas arredondadas */
+    display: inline-block;
+    background-color: rgba(173, 216, 230, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .contact {
-    text-align: center; /* Faz com que o conteúdo interno fique centralizado */
+    text-align: center;
 }
 .contact h2 {
-    display: inline-block; /* Mantém o fundo ajustado ao texto */
+    display: inline-block;
 }
 
 .map-embed {
-    width: 100%; /* Faz o mapa ocupar toda a largura do container */
-    max-width: 600px; /* Define um limite para o tamanho */
-    height: 450px; /* Mantém a altura desejada */
-    border: none; /* Remove a borda sem precisar de inline styles */
+    width: 100%; 
+    max-width: 600px;
+    height: 450px;
+    border: none;
     display: block;
-    margin: 0 auto; /* Centraliza o mapa */
+    margin: 0 auto;
 }
 
-/* Hero Section */
 .hero {
     position: relative;
     text-align: center;
@@ -367,7 +366,6 @@ button[type="submit"] {
     width: 100%;
 }
 
-/* Newsletter Section */
 .newsletter {
     text-align: center;
     padding: var(--padding);
@@ -407,8 +405,6 @@ button[type="submit"] {
     transition: background-color 0.3s;
 }
 
-
-/* Call to Action Section */
 .cta {
     text-align: center;
     padding: var(--padding);
@@ -444,7 +440,6 @@ button[type="submit"] {
     border-color: #999;
 }
 
-/* CSS Grid Layout Section */
 .grid-layout {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -477,9 +472,9 @@ button[type="submit"] {
 }
 
 .newsletter {
-    background-color: transparent; /* Remove a cor de fundo */
-    border: none; /* Remove a borda, se necessário */
-    padding: 0; /* Remove o padding, se necessário */
+    background-color: transparent;
+    border: none;
+    padding: 0;
   }
 
   .newsletter h2, .cta h2 {
@@ -492,7 +487,6 @@ button[type="submit"] {
     border-radius: 5px;
 }
 
-/* Call to Action Section */
 .cta-trips {
     text-align: center;
     padding: 2rem;
@@ -512,7 +506,6 @@ button[type="submit"] {
     margin-bottom: 1.5rem;
   }
   
-  /* Trip Descriptions Section */
   .trip-descriptions {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -546,7 +539,6 @@ button[type="submit"] {
     line-height: 1.5;
   }
   
-  /* Trip Table Section */
   .trip-table {
     padding: 2rem;
     margin: 2rem auto;
@@ -593,7 +585,7 @@ button[type="submit"] {
     background-color: rgba(173, 216, 230, 0.8);
     border-radius: 5px;
     width: auto;
-    margin-left: auto; /* Centraliza o título */
+    margin-left: auto;
     margin-right: auto;
 }
 
